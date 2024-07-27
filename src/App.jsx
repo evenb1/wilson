@@ -6,6 +6,7 @@ import CustomerReviews from "./sections/CustomerReviews";
 import SpecialOffers from "./sections/SpecialOffers";
 import SuperQuality from "./sections/SuperQuality";
 import PopularProducts from "./sections/PopularProducts";
+import Nav from "./components/Nav";
 
 const App = () => {
   return (
