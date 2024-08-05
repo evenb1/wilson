@@ -9,15 +9,21 @@ const Nav = () => {
                 <img src={headerLogo} alt='logo' width={100} height={30}></img>
             
             </a>
-            <ul className='flex-1 flex justify-center items-center max-lg:hidden'>
+            <ul className='flex-1 flex justify-end items-center max-lg:hidden gap-14'>
                 {navLinks.map((item) => (
                     <li key={item.label}>
-                        <a href={item.href}>
-
+                        <a href={item.href} className='font-montserrat leading-normal text-slate-gray'>
+                        {item.label}
                         </a>
                     </li>
                 ))}
             </ul>
+            <div className=''>
+                <img src={hamburger}
+                alt='hambergur'
+                width={25}
+                height={25}></img>
+            </div>
         </nav>
     </header>
       )
