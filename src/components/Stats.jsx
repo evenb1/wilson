@@ -12,7 +12,7 @@ const Stats = () => {
     <div className='max-container mx-auto'>
       {stats.map((item, index) => (
         <div key={index} className='text-center'>
-          <CountUp end={item.num} duration={5} delay={2} className="text-4xl xl:text-6xl font-extrabold" />
+          <CountUp end={item.num} suffix="+" duration={4} delay={2} className="text-4xl xl:text-6xl text-black font-extrabold" />
           <p className="mt-2 text-lg">{item.text}</p>
         </div>
       ))}

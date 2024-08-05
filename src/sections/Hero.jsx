@@ -1,6 +1,7 @@
 import Button from "../components/Button"
 import { arrowRight } from "../assets/icons"
 import { FlipWords } from "../components/ui/flip-words"
+import Stats from "../components/Stats"
 
 const Hero = () => {
     const words = ["GAME.", "SHOW.", "PLAY.", "VIBE."];
@@ -19,7 +20,7 @@ const Hero = () => {
                 the industry leader in premium tennis equipment 
                 for over a century.</p>
             <Button label="Shop Now" iconURL={arrowRight}/>
-            
+            <Stats/>
       
     </div>
     </section>
