@@ -9,10 +9,10 @@ const Hero = () => {
       min-h-screen gap-10 max-container">
         <div className="relative xl:w-2/5 flex flex-col items-start w-full
         max-xl:padding-x pt-28">
-            <div className="text-4xl mx-auto font-normal text-black-600 dark:text-neutral-400">
+            <div className="text-4xl mx-auto text-black font-bold">
       BOLD NEW COLORS. <br />
       WHOLE NEW 
-        <FlipWords words={words} /> 
+        <FlipWords words={words} className="text-customcolor" /> 
         
       </div>
             <p>Welcome to Wilson Tennis, 
