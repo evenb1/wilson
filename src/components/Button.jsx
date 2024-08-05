@@ -1,7 +1,11 @@
 
-const Button = () => {
+const Button = ({label, iconURL}) => {
   return (
-    <div>Button</div>
+    <button className=""
+    >{label}
+    <img src={iconURL} alt="right arrow" className="ml-2 rounded-full"/>
+    
+    </button>
   )
 }
 

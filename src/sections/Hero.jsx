@@ -1,3 +1,5 @@
+import Button from "../components/Button"
+import { arrowRight } from "../assets/icons"
 
 const Hero = () => {
   return (
@@ -14,8 +16,8 @@ const Hero = () => {
             <p>Welcome to Wilson Tennis, 
                 the industry leader in premium tennis equipment 
                 for over a century.</p>
+            <Button label="Shop Now" iconURL={arrowRight}/>
             
-
 
         </div>
     </section>
