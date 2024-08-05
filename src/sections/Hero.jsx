@@ -1,5 +1,6 @@
 import Button from "../components/Button"
 import { arrowRight } from "../assets/icons"
+import { FlipWords } from "../components/ui/flip-words"
 
 const Hero = () => {
   return (
@@ -17,7 +18,6 @@ const Hero = () => {
                 the industry leader in premium tennis equipment 
                 for over a century.</p>
             <Button label="Shop Now" iconURL={arrowRight}/>
-            
 
         </div>
     </section>
