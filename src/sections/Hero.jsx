@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Button from "../components/Button"
 import { arrowRight } from "../assets/icons"
 import { FlipWords } from "../components/ui/flip-words"
@@ -8,9 +9,9 @@ const Hero = () => {
     const words = ["GAME.", "SHOW.", "PLAY.", "VIBE."];
   return (
     <section id="home" className="w-full flex xl:flex-row flex-col justify-center
-      min-h-screen gap-10 max-container">
+      min-h-screen gap-10 max-container" >
         <div className="relative xl:w-2/5 flex flex-col items-start w-full
-        max-xl:padding-x pt-28">
+        max-xl:padding-x pl-10 pt-40" >
             <div className="text-4xl ml-0 mx-auto max-sm:text-[50px] text-black font-bold">
       BOLD NEW COLORS. <br />
       WHOLE NEW 
@@ -24,12 +25,12 @@ const Hero = () => {
             <Stats/>
       
     </div>
-    <div className="relative flex-1 flex justify-center items-center xl:min-h-screen">
-        <img src={bigImage2}  width={500} height={400} alt="" className="object-contain relative z-10" />
+    <div className="relative flex-1 flex justify-center items-center max-sm:hidden xl:min-h-screen">
+        <img src={bigImage2}  width={500} height={300} alt="" className="object-contain relative z-10" />
     </div>
-    {/* <div className="relative flex-1 flex-shrink justify-center items-center ">
-        <img src={bigImage1}  alt="" className="object-contain relative w-full  z-10" />
-    </div> */}
+    <div className="relative flex-1 flex-shrink justify-center xl:hidden lg:hidden items-center ">
+        <img src={bigImage1}  alt="" className="object-contain relative  w-full  z-10" />
+    </div>
     </section>
 
 )
