@@ -26,16 +26,17 @@ const Hero = () => {
         <Stats />
       </div>
       <div
-        className="relative flex-1 flex justify-center xl:m-0
+        className="relative flex-1 flex justify-center xl:m-0 
          lg:justify-end  min-lg:m-0 lg:mt-[-550px]  
          items-center xl:min-h-screen md:justify-end md:mt-[-550px]"
         
       >
         <img src={isHovered ? bigImage3 : bigImage2} alt="" 
         className="object-contain w-[900px] h-[500px]
-         max-sm:h-[200px] relative lg:w-[700px] lg:h-[600px]
-          md:w-[400px] md:h-[300px] " onMouseEnter={() => setIsHovered(true)}
+         max-sm:h-[200px] relative xl:pr-20 lg:w-[700px] lg:h-[600px]
+          md:w-[400px] md:h-[300px] max-sm:hidden" onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}/>
+          <img src={bigImage1} className="w-full block sm:hidden " width={700} height={600} alt="" />
       </div>
       
     </section>
