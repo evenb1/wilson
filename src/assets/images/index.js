@@ -11,11 +11,14 @@ import headerLogo from './header-logo.svg'
 
 import offer from './offer.svg'
 
-import shoe4 from './shoe4.svg'
-import shoe5 from './shoe5.svg'
-import shoe6 from './shoe6.svg'
-import shoe7 from './shoe7.svg'
-import shoe8 from './shoe8.svg'
+import blade1 from './blade-1.png'
+import blade2 from './blade-2.png'
+import clash1 from './clash-1.png'
+import clash2 from './clash-2.png'
+import shift1 from './shift99-1.png'
+import shift2 from './shift99-2.png'
+import triad1 from './triad-1.png'
+import triad2 from './triad-2.png'
 
 import thumbnailBackground from './thumbnail-background.svg'
 
@@ -32,11 +35,14 @@ export {
     headerLogo,
 
     offer,
-    shoe4,
-    shoe5,
-    shoe6,
-    shoe7,
-    shoe8,
+    blade1,
+    blade2,
+    shift1,
+    shift2,
+    triad1,
+    triad2,
+    clash1,
+    clash2,
 
     thumbnailBackground,
    
