@@ -14,13 +14,13 @@ const Stats = () => {
         const suffix = item.num === 300 ? "k+" : "+";
 
         return (
-          <div key={index} className='text-center mt-[-20px]'>
+          <div key={index} className='text-center mt-[-30px]'>
             <CountUp 
               end={item.num} 
               suffix={suffix} 
               duration={4} 
               delay={2} 
-              className="text-3xl xl:text-5xl text-black font-extrabold" 
+              className="text-2xl xl:text-5xl text-black font-extrabold" 
             />
             <p className="mt-2 text-lg">{item.text}</p>
           </div>
