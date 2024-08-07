@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PopularProductCard = () => {
+const PopularProductCard = ({imgURL, imgURL2, name, price}) => {
   return (
     <div>PopularProductCard</div>
   )
