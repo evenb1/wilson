@@ -1,6 +1,6 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
 import { bigImage1, bigImage2, bigImage3, customer1, customer2, blade1,blade2,clash1,clash2,
-    shift1,shift2,triad1,triad2, shoes, bags, balls, strings } from "../assets/images";
+    shift1,shift2,triad1,triad2, shoes, bags, balls, strings, } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -19,19 +19,19 @@ export const tennis = [
 
 export const comingSoon =[
     {
-        imgURL: shoes,
+        imageURL: shoes,
         name: "Shoes",
     },
     {
-        imgURL: balls,
+        imageURL: balls,
         name: "Balls",
     },
     {
-        imgURL: strings,
+        imageURL: strings,
         name: "Strings",
     },
     {
-        imgURL: bags,
+        imageURL: bags,
         name: "Bags"
     }
 
