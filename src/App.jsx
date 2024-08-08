@@ -18,7 +18,7 @@ const App = () => {
       <section className='padding'>
         <PopularProducts />
       </section>
-      <section className='padding'>
+      <section className='p-0 m-0'>
         <SuperQuality />
       </section>
       <section className='padding-x py-10'>
