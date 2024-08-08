@@ -1,7 +1,8 @@
 import { tennisCollection } from "../assets/images"
 const SuperQuality = () => {
   return (
-    <section className=" bg-cover bg-no-repeat bg-center h-screen" style={{ backgroundImage: `url(${tennisCollection})` }}>
+    <section className=" bg-contain object-contain bg-no-repeat 
+    bg-center h-[400px] " style={{ backgroundImage: `url(${tennisCollection})` }}>
         
     </section>
   )
