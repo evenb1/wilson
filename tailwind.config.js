@@ -3,6 +3,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  
   theme: {
     fontSize: {
       xs: ['12px', '16px'],
@@ -13,9 +14,20 @@ export default {
       '2xl': ['24px', '29.26px'],
       '3xl': ['28px', '50px'],
       '4xl': ['48px', '58px'],
-      '8xl': ['96px', '106px']
+      '8xl': ['96px', '106px'],
     },
     extend: {
+      keyframes: {
+        "slide-in-right": {
+          "0%": {
+            visibility: "visible",
+            transform: "translate3d(100%, 0, 0)",
+          },
+          "100%": {
+            transform: "translate3d(0, 0, 0)",
+          },
+        },
+      },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
@@ -26,18 +38,18 @@ export default {
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
-        "customcolor": "#CF102D"
+        "customcolor": "#CF102D",
       },
       boxShadow: {
-        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
+        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)',
       },
       backgroundImage: {
         'hero': "url('assets/images/collection-background.svg')",
         'card': "url('assets/images/thumbnail-background.svg')",
       },
       screens: {
-        "wide": "1440px"
-      }
+        "wide": "1440px",
+      },
     },
   },
   plugins: [],
