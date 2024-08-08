@@ -23,7 +23,10 @@ import tennisCollection from './tennis-collection.png'
 
 import thumbnailBackground from './thumbnail-background.svg'
 
-
+import shoes from './shoes.png'
+import bags from './bags.png'
+import strings from './strings.png'
+import balls from './balls.png'
 export {
     bigImage1,
     bigImage2,
@@ -47,5 +50,10 @@ export {
     clash2,
 
     thumbnailBackground,
+
+    strings,
+    balls,
+    shoes,
+    bags,
    
 }

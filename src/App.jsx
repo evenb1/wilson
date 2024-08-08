@@ -21,11 +21,12 @@ const App = () => {
       <section className='padding-x  max-sm:p-0'>
         <SuperQuality />
       </section>
+      
+      <section className='padding-x py-0'>
+        <SpecialOffers />
+      </section>
       <section className='padding-x py-10'>
         <Services />
-      </section>
-      <section className='padding'>
-        <SpecialOffers />
       </section>
       <section className='padding bg-pale-blue'>
         <CustomerReviews />
