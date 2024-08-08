@@ -5,7 +5,7 @@ const PopularProducts = () => {
   return (
     <section id="products" className="max-container max-sm:mt-3 mt-[-80px]">
         <div className="felx flex-col justify-start gap-5 ">
-            <h2 className="text-4xl font-palanquin font-bold"> 
+            <h2 className="text-4xl max-sm:text-[30px] font-palanquin font-bold"> 
             Our <span className="text-customcolor">Popular</span> Products</h2>
             <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">Explore the best racket suited to your playing style</p>
         </div>
