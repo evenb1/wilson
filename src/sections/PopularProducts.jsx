@@ -3,7 +3,7 @@ import PopularProductCard from "../components/PopularProductCard"
 
 const PopularProducts = () => {
   return (
-    <section id="products" className="max-container max-sm:mt-12">
+    <section id="products" className="max-container max-sm:mt-3 mt-[-80px]">
         <div className="felx flex-col justify-start gap-5 ">
             <h2 className="text-4xl font-palanquin font-bold"> 
             Our <span className="text-customcolor">Popular</span> Products</h2>
