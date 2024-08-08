@@ -20,19 +20,19 @@ export const tennis = [
 export const comingSoon =[
     {
         imgURL: shoes,
-        name: "Shoes",
+        name: "SHOES",
     },
     {
         imgURL: balls,
-        name: "Balls",
+        name: "BALLS",
     },
     {
         imgURL: strings,
-        name: "Strings",
+        name: "STRINGS",
     },
     {
         imgURL: bags,
-        name: "Bags"
+        name: "BAGS"
     }
 
 ]
