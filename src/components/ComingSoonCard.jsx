@@ -1,12 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
 
-const ComingSoonCard = ({imgUrl, name}) => {
+const ComingSoonCard = ({imgURL, name}) => {
   return (
-    <div className='flex flex-1 flex-col w-full max-sm:w-full border-solid border-[1px] border-gray-200'>
-        <img src={imgUrl} alt={name}
-         className='w-full h-[280px]'  onMouseEnter={() => setIsHovered(true)}
-         onMouseLeave={() => setIsHovered(false)}>
+    <div className='flex flex-1 flex-col w-full max-sm:w-full '>
+        <img src={imgURL} alt={name}
+         className='w-full h-[280px]' >
         </img>
         <h3 className='mt-2 px-2 text-xl font-bold leading-normal'>{name}</h3>
     </div>
