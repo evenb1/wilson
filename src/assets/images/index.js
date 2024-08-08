@@ -19,6 +19,7 @@ import shift1 from './shift99-1.png'
 import shift2 from './shift99-2.png'
 import triad1 from './triad-1.png'
 import triad2 from './triad-2.png'
+import tennisCollection from './tennis-collection.png'
 
 import thumbnailBackground from './thumbnail-background.svg'
 
@@ -33,6 +34,7 @@ export {
 
     footerLogo,
     headerLogo,
+    tennisCollection,
 
     offer,
     blade1,
