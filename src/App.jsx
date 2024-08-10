@@ -18,7 +18,7 @@ const App = () => {
       <section className='padding'>
         <PopularProducts />
       </section>
-      <section className='padding-x  max-sm:p-0'>
+      <section id="collection" className='padding-x  max-sm:p-0'>
         <SuperQuality />
       </section>
       
@@ -26,7 +26,7 @@ const App = () => {
         <SpecialOffers />
       </section>
       
-      <section className='mt-10 padding-y bg-gray-100 sm:py-32 w-full'>
+      <section className='mt-20 bg-gray-100 sm:py-32 w-full'>
         <Subscribe />
       </section>
       <section className='bg-black padding-x padding-t pb-8'>

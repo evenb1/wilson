@@ -5,12 +5,11 @@ import 'swiper/css';
 
 const SpecialOffers = () => {
   return (
-    <section>
-      {/* Swiper Slider for small devices */}
+    <section >
       <div className="sm:hidden">
         <Swiper
           spaceBetween={20}
-          slidesPerView={1.2}  // Adjust this value as needed
+          slidesPerView={1.2} 
           centeredSlides={true}
           loop={true}
         >
@@ -22,7 +21,6 @@ const SpecialOffers = () => {
         </Swiper>
       </div>
 
-      {/* Grid Layout for larger devices */}
       <div className="hidden sm:grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
         {comingSoon.map((comings) => (
           <ComingSoonCard key={comings.name} {...comings} />

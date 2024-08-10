@@ -4,7 +4,7 @@ import { bigImage1, bigImage2, bigImage3, customer1, customer2, blade1,blade2,cl
 
 export const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
+    { href: "#collection", label: "Collections" },
     { href: "#products", label: "Products" },
     { href: "#contact-us", label: "Contact Us" },
 ];
