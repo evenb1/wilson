@@ -26,10 +26,10 @@ const App = () => {
         <SpecialOffers />
       </section>
       
-      <section className='mt-10 sm:py-32 w-full'>
+      <section className='mt-10 padding-y bg-gray-100 sm:py-32 w-full'>
         <Subscribe />
       </section>
-      <section className='bg-black padding-x m-0 padding-t pb-8'>
+      <section className='bg-black padding-x padding-t pb-8'>
         <Footer />
       </section>
     </main>
