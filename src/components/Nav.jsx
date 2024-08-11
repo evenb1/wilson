@@ -4,7 +4,7 @@ import { navLinks } from '../constants';
 import { hamburger } from '../assets/icons';
 
 const Nav = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false); // State to handle sidebar visibility
+  const [isNavOpen, setIsNavOpen] = useState(false); 
 
   return (
     <header className="padding-x absolute z-10 w-full">
@@ -13,7 +13,6 @@ const Nav = () => {
           <img src={headerLogo} alt="logo" width={100} height={30} />
         </a>
         
-        {/* Desktop Navigation */}
         <ul className="flex-1 flex justify-end items-center max-lg:hidden gap-14">
           {navLinks.map((item) => (
             <li key={item.label}>
