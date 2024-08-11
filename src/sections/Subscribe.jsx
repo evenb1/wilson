@@ -14,7 +14,7 @@ const Subscribe = () => {
         />
         <button 
           type="submit" 
-          className="bg-white text-black px-5 py-4 text-sm font-light border-l border-gray-200 font-montserrat hover:bg-gray-100 rounded-none"
+          className="bg-white text-black px-7 py-4 text-sm font-light border-l border-gray-200 font-montserrat hover:bg-gray-100 rounded-none"
         >
           Subscribe
         </button>
