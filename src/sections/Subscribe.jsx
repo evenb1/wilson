@@ -1,7 +1,7 @@
 const Subscribe = () => {
   return (
-    <section className="max-container bg-gray-100 w-full flex flex-col items-center ">
-      <h2 className="text-3xl leading-normal sm:text-2xl font-bold font-Archivo mb-2">JOIN OUR COMMUNITY</h2>
+    <section className="max-container max-sm:p-5 max-sm:justify-center bg-gray-100 w-full flex flex-col items-center ">
+      <h2 className="text-3xl leading-normal sm:text-[10px] font-bold font-Archivo mb-2">JOIN OUR COMMUNITY</h2>
       <p className="text-center text-sm font-montserrat mb-4">Be the first to hear about all the exclusive offers and latest news</p>
       
       <div className="flex w-full max-w-md border border-gray-200 rounded-none overflow-hidden">
