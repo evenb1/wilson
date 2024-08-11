@@ -1,8 +1,19 @@
-# React + Vite
+# Wilson Tennis Collection Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Wilson Tennis Collection** project! This website is a responsive and interactive platform designed to showcase Wilson's premium tennis products, including rackets, shoes, balls, bags, and strings. The site is optimized for both desktop and mobile users, ensuring a seamless experience across all devices.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: The website is fully responsive, adapting to various screen sizes and devices, from large desktops to small mobile phones.
+- **Interactive Navigation**: The site features a dynamic navigation bar with a hamburger menu that transforms into a modal sidebar on smaller devices.
+- **Product Carousel**: A carousel slider for showcasing special offers on smaller devices, ensuring a smooth user experience.
+- **Footer with Social Links**: A well-organized footer containing links to essential pages and social media profiles, aligned to the right for a clean look.
+- **Subscription Form**: An easy-to-use subscription form for users to join the Wilson community and stay updated on the latest news and offers.
+
+## Technologies Used
+
+- **React**: The site is built using React for efficient component-based development.
+- **Tailwind CSS**: Tailwind CSS is used for styling, providing a flexible and responsive design.
+- **JavaScript**: The core functionality of the site is powered by JavaScript, enabling interactivity and dynamic content.
+- **HTML/CSS**: Standard HTML and CSS are utilized for the structure and base styling of the site.
+
