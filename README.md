@@ -4,6 +4,7 @@ Welcome to the **Wilson Tennis Collection** project! This website is a responsiv
 
 ## Features
 
+
 - **Responsive Design**: The website is fully responsive, adapting to various screen sizes and devices, from large desktops to small mobile phones.
 - **Interactive Navigation**: The site features a dynamic navigation bar with a hamburger menu that transforms into a modal sidebar on smaller devices.
 - **Product Carousel**: A carousel slider for showcasing special offers on smaller devices, ensuring a smooth user experience.
@@ -18,3 +19,5 @@ Welcome to the **Wilson Tennis Collection** project! This website is a responsiv
 - **HTML/CSS**: Standard HTML and CSS are utilized for the structure and base styling of the site.
 
 ## Live Demo: https://wilson-beige.vercel.app/
+
+<img width="1440" alt="Screenshot 2024-08-11 at 21 29 52" src="https://github.com/user-attachments/assets/2e8e9d46-03c1-49d3-8998-58340d110c75">
