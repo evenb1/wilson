@@ -1,10 +1,16 @@
 import React, { useContext } from 'react';
-import { CartContext } from '../context/CartContext';
+import { CartContext } from '../context/CartContext.jsx'; // Ensure the path is correct
 
-const Button = ({ label, iconURL, onClick }) => {
+const Button = ({ label, iconURL, item }) => {
+  const { addToCart } = useContext(CartContext); // Use the context
+
+  const handleClick = () => {
+    addToCart(item); // Add item to cart when the button is clicked
+  };
+
   return (
     <button
-      onClick={onClick} // Add click handler for adding to cart
+      onClick={handleClick} // Update to use the handleClick function
       className="flex justify-center items-center gap-2 px-7 py-3 font-montserrat text-lg leading-none bg-customcolor rounded-full text-white hover:animate-slide-in-right"
     >
       {label}
