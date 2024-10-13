@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { CartContext } from '../context/CartContext' // Import the cart context
+import { CartContext } from '../context/CartContext';
 
 const Button = ({ label, iconURL, onClick }) => {
   return (
