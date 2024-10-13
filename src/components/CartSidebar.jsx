@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { CartContext } from '../../context/CartContext';
+import { CartContext } from '../context/CartContext';
 import { AiOutlineClose, AiOutlineShoppingCart } from 'react-icons/ai'; // For icons
 
 const CartSidebar = ({ isOpen, toggleSidebar }) => {
