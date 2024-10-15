@@ -10,7 +10,7 @@ const Button = ({ label, iconURL, item }) => {
 
   return (
     <button
-      onClick={handleClick} // Update to use the handleClick function
+      onClick={handleClick} 
       className="flex justify-center items-center gap-2 px-7 py-3 font-montserrat text-lg leading-none bg-customcolor rounded-full text-white hover:animate-slide-in-right"
     >
       {label}
