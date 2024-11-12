@@ -7,12 +7,9 @@ import SpecialOffers from "./sections/SpecialOffers";
 import SuperQuality from "./sections/SuperQuality";
 import PopularProducts from "./sections/PopularProducts";
 import Nav from "./components/Nav";
-import CartSidebar from "./components/CartSidebar"; // Cart sidebar component
-import { CartProvider } from './context/CartContext'; // Import the Cart Context Provider
 
 const App = () => {
   return (
-    <CartProvider> {/* Wrapping your app with CartProvider */}
       <main className='relative'>
         <Nav /> {/* Navbar component */}
 
@@ -40,10 +37,8 @@ const App = () => {
           <Footer />
         </section>
 
-        {/* Cart Sidebar */}
-        <CartSidebar /> {/* Include Cart Sidebar component here */}
       </main>
-    </CartProvider>
+    
   );
 }
 
